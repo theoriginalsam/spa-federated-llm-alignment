@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# Large model / data artifacts (stored on server, not in repo)
+*.bin
+*.safetensors
+*.gguf
+# Keep small .pt result files; exclude large checkpoint weights
+models/
+data/
+
+# Lock files
+~$*
